@@ -198,8 +198,17 @@
       ]
     },
     "win": {
+      "publish": [
+        "github"
+      ],
       "target": [
-        "nsis"
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
       ]
     },
     "linux": {
