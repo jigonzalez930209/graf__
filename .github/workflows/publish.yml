@@ -46,4 +46,5 @@ jobs:
           # This is used for uploading release assets to github
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm exec electron-builder -- --publish onTagOrDraft --win --mac --linux
+          pnpm exec electron-builder --publish awlwais --win 
+          # --mac --linux
