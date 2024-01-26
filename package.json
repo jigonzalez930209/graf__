@@ -227,8 +227,7 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "jigonzalez930209",
-      "repo": "https://github.com/jigonzalez930209/graf__"
+      "releaseType": "draft"
     }
   },
   "devEngines": {
